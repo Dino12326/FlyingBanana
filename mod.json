@@ -1,7 +1,7 @@
 {
-    "_QPVersion": "0.1.1",
-    "name": "Flying Banana",
-    "id": "FlyingBanana",
+    "_QPVersion": "0.4.1",
+    "name": "Flying gorilla",
+    "id": "FlyingGorilla",
     "author": "Christoffyw",
     "version": "0.1.0",
     "packageId": "com.AnotherAxiom.GorillaTag",
@@ -10,13 +10,13 @@
         "libFlyingBanana.so"
     ],
     "libraryFiles": [
-        "libbeatsaber-hook_1_3_5.so"
+        "libbeatsaber-hook_3_3_5.so"
     ],
     "dependencies": [
         {
             "id": "monkecodegen",
-            "version": "^0.4.0",
-            "downloadIfMissing": "https://github.com/RedBrumbler/MonkeCodegen/releases/download/0.4.0/MonkeCodegen.qmod"
+            "version": "^0.7.0",
+            "downloadIfMissing": "https://github.com/RedBrumbler/MonkeCodegen/releases/download/0.5.0/MonkeCodegen.qmod"
         }
     ]
 }
